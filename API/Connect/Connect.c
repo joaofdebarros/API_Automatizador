@@ -102,6 +102,10 @@ void gate_get_status(){
   gate_packet_transmit(Buffer_TX, buffer_size);
 }
 
+void gate_status(uint8_t *status){
+  memcpy(status, &ConnectLR.gate_info.state, sizeof(ConnectLR.gate_info.state));
+}
+
 uint8_t calculate_checksum(uint8_t *buffer, uint8_t payload_size,
                            bool automatizador) {
   uint8_t sum = 0;

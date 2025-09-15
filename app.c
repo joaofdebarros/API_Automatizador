@@ -24,6 +24,8 @@
 extern bool bt0_press;
 extern bool bt1_press;
 
+uint8_t status_atual = 0;
+
 void app_init(void)
 {
   simple_button_init();
@@ -44,7 +46,9 @@ void app_process_action(void)
   }
 
   if(bt1_press){
+
+      gate_status(&status_atual);
+
       bt1_press = false;
-      gate_cmd(FECHAR);
   }
 }

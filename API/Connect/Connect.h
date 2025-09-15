@@ -95,6 +95,7 @@ uint8_t montar_pacote(uint8_t *tx, uint8_t size, uint8_t id, uint8_t adrs,
                       bool automatizador);
 uint8_t calculate_checksum(uint8_t *buffer, uint8_t payload_size,
                            bool automatizador);
+void gate_status(uint8_t *status);
 void gate_packet_transmit(uint8_t *byte_transmit,uint8_t len);
 void gate_cmd(uint8_t cmd);
 void gate_get_status();
