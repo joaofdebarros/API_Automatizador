@@ -1,0 +1,7 @@
+---
+workspace_name: "simple_button_baremetal"
+label: "simple_button_baremetal"
+project:
+- id: "main"
+  path: "API_Automatizador.slcp"
+  output: "."

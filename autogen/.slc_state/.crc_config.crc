@@ -1,0 +1,21 @@
+#CRC Codes for initially generated config files -- do not modify!
+dmadrv_config.h=1207334949
+sl_board_control_config.h=-1628235768
+sl_clock_manager_oscillator_config.h=1060840432
+sl_clock_manager_tree_config.h=1470742818
+sl_core_config.h=-119586893
+sl_debug_swo_config.h=712797333
+sl_device_init_dcdc_config.h=1955081430
+sl_hfxo_manager_config.h=1606678224
+sl_memory_manager_region_config.h=-132681117
+sl_mx25_flash_shutdown_eusart_config.h=1107313742
+sl_power_manager_config.h=1027092785
+sl_simple_button_btn0_config.h=109381819
+sl_simple_button_btn1_config.h=-1260469142
+sl_simple_button_config.h=-1109451986
+sl_simple_led_led0_config.h=851383187
+sl_simple_led_led1_config.h=1768888371
+sl_sleeptimer_config.h=1360009810
+sl_uartdrv_usart_central_config.h=-159899005
+uartdrv_config.h=752358584
+ustimer_config.h=2106674886
